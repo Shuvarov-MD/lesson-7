@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: sans-serif;
+  font-weight: 300;
+
+  color: #000000;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 1140px;
+  padding-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 125px;
+  text-align: center;
+
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tool {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 263px;
+  align-items: center;
+}
+
+.img {
+  width: auto;
+  margin-bottom: 25px;
+}
+
+.tool-name {
+  display: block;
+  margin-bottom: 25px;
+
+  font-size: 16px;
+}
+
+.tool-price {
+  display: block;
+  margin-bottom: 25px;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-buy {
+  display: inline-block;
+  padding: 23px 75px;
+
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  border: 1px solid #23bac1;
+  color: #23bac1;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-buy:hover {
+  background-color: #23bac1;
+  color: #f9f9f9;
+}

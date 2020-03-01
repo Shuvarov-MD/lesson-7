@@ -1,0 +1,163 @@
+/* Общие стили */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+  font-family: Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-center {
+  width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 27px;
+
+  color: #333333;
+}
+
+.title-center {
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 22px;
+  padding-bottom: 22px;
+
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+
+  border: 2px solid #f05a22;
+  border-radius: 5px;
+  color: #f05a22;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #ffffff;
+  background-color: #f05a22;
+}
+/* -- Общие стили -- */
+
+
+/* Секция с книгой */
+.section {
+  display: flex;
+  padding-top: 76px;
+  padding-bottom: 96px;
+}
+
+.section-img {
+  width: auto;
+}
+
+.section-content {
+  flex-basis: 556px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-title {
+  margin-top: 60px;
+  margin-bottom: 15px;
+
+  font-size: 48px;
+  font-weight: 700;
+
+  color: #000000;
+}
+
+.section-author {
+  display: block;
+  margin-bottom: 35px;
+
+  font-size: 30px;
+
+  color: #000000;
+}
+
+.section-description {
+  margin-bottom: 47px;
+
+  line-height: 27px;
+
+  color: #000000;
+}
+
+.section-price {
+  display: block;
+  margin-bottom: 53px;
+
+  font-size: 48px;
+  line-height: 27px;
+
+  color: #313131;
+}
+
+.section-buy {
+  padding-right: 42px;
+  padding-left: 46px;
+  margin-right: 40px;
+}
+
+.section-find-out {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+/* -- Секция с книгой -- */
+
+
+/* Доставка и оплата */
+.block-shipped {
+  padding-top: 90px;
+  padding-bottom: 100px;
+}
+
+.block-bg-grey {
+  background-color: #f2f2f2;
+}
+
+.block-title {
+  margin-top: 0;
+  margin-bottom: 90px;
+}
+
+.block-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  flex-basis: 260px;
+}
+
+.block-img {
+  width: auto;
+}
+
+.block-text {
+  margin-bottom: 0;
+  text-align: center;
+}
+/* -- Доставка и оплата -- */
